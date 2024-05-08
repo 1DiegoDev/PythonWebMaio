@@ -1,0 +1,61 @@
+from flask import Flask # O último flask é maiusculo por que é uma classe.
+
+app = Flask('Olá') # Variável - Usamos para guardar valores, guardamos dentor de uma variável
+
+@app.route('/') # Criando uma rota( rota = /(Barra))
+def ola(): # Função(def) com parametro(ola():)
+    return "Olá mundo"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
